@@ -1,0 +1,44 @@
+
+body{
+	background:url(../images/a.jpg)no-repeat;
+	background-size:100%;
+	border: 0px solid red;
+	padding-top: 200px ;
+}
+#top{
+	box-shadow: 0 0 1px 1px black;
+	background:rgba(0,0,0,0.5);
+	border: 0px solid red;
+	border-radius: 5px;
+	height: 300px;
+	width: 300px;
+	margin-left: 65%;
+	padding-top: 1px;
+
+}
+#top h2{
+	color: white;
+	text-align: center;
+	margin-top: 30px;
+}
+#top input{
+	float: left;
+	height: 30px;
+	width: 200px;
+	font-size: 15px;
+	margin-left: 45px;
+	margin-top: 35px;
+}
+#top span{
+	cursor: pointer;
+	font-size: 18px;
+	margin-top: 25px;
+	margin-left: 77px;
+	float: left;
+	border: 0px solid black;
+	color: white;
+}
+#top span a{
+	color: white;
+	text-decoration: none;
+}

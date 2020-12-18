@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+
+*
+{margin: 0; padding: 0; border:1; outline: none;}
+body {	font-family: "宋体";font-size: 14px;color:#000;line-height: 30px;text-align:left; background-color:#8783d9;    }
+td,th {font-family: "宋体";font-size: 14px;color: #000000;}
+a {color:#fff;} 
+A:link {TEXT-DECORATION: none;}
+A:visited {TEXT-DECORATION: none;}
+ul,li{list-style-type:none;}
+.clearit{clear:both;}
+
+
+.page{
+	width:1000px; margin:0 auto;background-color:rgba(225,225,225,0.5);
+}
+.zhong{ 
+	width:980px; margin:0 auto; 
+	}
+.logo{
+	float:left;margin-top:20px;
+}
+.logo h1{
+	font-size:28px; color:#2e25e9; font-weight:bold; line-height:35px; 
+}
+.daohang{
+	float:right;  width:700px; height:35px; background-color:#2e25e9; border-radius:30px;margin-top:20px;
+}
+.daohang p{
+	line-height:35px; color:#FFF;
+}
+.banner{
+	width:980px; margin:0 auto; margin-top:20px;
+}
+.yi{
+	width:980px; margin:0 auto; margin-top:20px;
+}
+.foot{ 
+	height:30px;background-color:#2e25e9; margin-top:20px;
+}
+.foot p{
+	text-align:center; color:#FFF;
+}
+.zuo{ 
+	float:left; width:300px;
+}
+.you{ 
+	float:right; width:670px;
+}
+.left{ 
+	width:670px; float:left;
+}
+.right{ 
+	width:300px; float:right;
+}
+.wen{
+	margin-top:10px;
+}
+.a{
+	transition: all 1s;
+}
+.a:hover{
+	transform: scale(1.5);
+}
+#sp{
+	width: 980px;
+	height: 500px;
+}
+#lb{
+	margin:auto;
+	width:980px;
+	height:450px;
+	animation: dh 10s infinite alternate;
+	margin-top: 20px;
+}
+@-webkit-keyframes dh{
+	0%{background: url(../images/e.jpg);}
+	25%{background: url(../images/f.jpg);}
+	50%{background: url(../images/c.jpg);}
+	75%{background: url(../images/d.jpg);}
+	100%{background: url(../images/banner.jpg);}
+	
+}
+#xl{
+	position: absolute;
+	right: 294px;
+	background:#2e25e9 ;
+	display: none;
+}
+#xl li{
+	width: 80px;
+	height:30px;
+	border: 0px solid black;
+	text-align: center;
+}
